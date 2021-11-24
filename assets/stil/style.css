@@ -568,5 +568,8 @@ body #footer .container .row .col-lg-2 .footer-sag a i {
   body main #blue .container .row .col-12 .blue-item p {
     font-size: 18px;
   }
+  body main #card .container .row .col-lg-6 .card-item .card-content br {
+    display: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */

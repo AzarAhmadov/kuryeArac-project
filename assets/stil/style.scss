@@ -633,6 +633,21 @@ body {
                     }
                 }
             }
+            #card{
+                .container{
+                    .row{
+                        .col-lg-6{
+                            .card-item{
+                                .card-content{
+                                    br{
+                                        display:none;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
