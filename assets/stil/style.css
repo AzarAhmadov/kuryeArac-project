@@ -1,0 +1,382 @@
+@font-face {
+  font-family: Gilroy Bold;
+  src: url(../font/Gilroy-Bold.ttf);
+}
+
+@font-face {
+  font-family: Gilroy Light;
+  src: url(../font/Gilroy-Light.ttf);
+}
+
+@font-face {
+  font-family: Gilroy Medium;
+  src: url(../font/Gilroy-Medium.ttf);
+}
+
+@font-face {
+  font-family: Gilroy Regular;
+  src: url(../font/Gilroy-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  text-decoration: none !important;
+}
+
+body #header {
+  padding-top: 54px;
+}
+
+body #header .container .row .col-lg-6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #header .container .row .col-lg-6 nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 0;
+  margin: 0;
+}
+
+body #header .container .row .col-lg-6 nav ul li {
+  white-space: nowrap;
+  margin-left: 5px;
+}
+
+body #header .container .row .col-lg-6 nav ul li .header-btn {
+  margin-left: 12px;
+  font-family: Gilroy Bold;
+  font-size: 18px;
+  color: #004E9C;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 189px;
+  height: 63px;
+  background: #FFCB00 0% 0% no-repeat padding-box;
+  border-radius: 40px;
+}
+
+body #header .container .row .col-lg-6 nav ul li .nav-link {
+  color: #004E9C;
+  font-family: Gilroy Medium;
+  font-size: 20px;
+}
+
+body main #banner {
+  margin-bottom: 102px;
+  padding-top: 118px;
+}
+
+body main #banner .container .row .col-12 .banner-left .banner-title {
+  white-space: nowrap;
+  font-size: 70px;
+  line-height: 1.1;
+  color: #FFCB00;
+}
+
+body main #banner .container .row .col-12 .banner-left .banner-title span {
+  color: #004E9C;
+}
+
+body main #banner .container .row .col-12 .banner-left .banner-content {
+  font-size: 20px;
+  color: #004E9C;
+  font-family: Gilroy Medium;
+}
+
+body main #banner .container .row .col-12 .banner-left .btn-banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 34px;
+}
+
+body main #banner .container .row .col-12 .banner-left .btn-banner .banner-btn {
+  width: 249px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 63px;
+  border-radius: 40px;
+  color: #FFFFFF;
+  font-family: Gilroy Medium;
+  background: #004E9C;
+}
+
+body main #banner .container .row .col-lg-7 .banner-right {
+  position: relative;
+}
+
+body main #banner .container .row .col-lg-7 .banner-right img {
+  position: absolute;
+  top: 0px;
+  left: 77px;
+}
+
+body main #banner .container .row .col-lg-7 .banner-right svg {
+  position: absolute;
+  z-index: -1;
+  top: -100px;
+  left: -40px;
+}
+
+body main #blue {
+  margin-top: 250px;
+  background: #004E9C;
+}
+
+body main #blue .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 308px;
+}
+
+body main #blue .container .row .col-12 .blue-item {
+  text-align: center;
+  margin: 0 auto;
+}
+
+body main #blue .container .row .col-12 .blue-item span {
+  color: #fff;
+  font-size: 36px;
+  line-height: 1.3;
+  display: block;
+}
+
+body main #blue .container .row .col-12 .blue-item p {
+  margin: 30px 0;
+  text-align: center;
+  width: 861px;
+  color: #FFFFFF;
+  font-size: 21px;
+}
+
+body main #card {
+  padding-top: 141px;
+}
+
+body main #card .container .row .col-12 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 48px;
+}
+
+body main #card .container .row .col-12 .card-item {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main #card .container .row .col-12 .card-item .card-title {
+  font-family: Gilroy Medium;
+  font-size: 30px;
+  color: #004E9C;
+  margin-top: 26px;
+  margin-bottom: 20px;
+}
+
+body main #card .container .row .col-12 .card-item .card-content {
+  color: #004E9C;
+  font-size: 19px;
+  text-align: center;
+}
+
+body main #card .container .row .col-lg-6 {
+  padding-right: 60px;
+}
+
+body main #card .container .row .col-lg-6:last-child {
+  padding-right: 0;
+}
+
+body main #reklam {
+  background: #FFCB00;
+  margin-top: 78px;
+  height: 308px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main #reklam .container .row .col-lg-8 p {
+  color: #00366D;
+  font-family: Gilroy Bold;
+  font-size: 32px;
+}
+
+body main #reklam .container .row .col-lg-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main #reklam .container .row .col-lg-4 .reklam-right a {
+  font-size: 24px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #FFCB00;
+  background: #004E9C;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 343px;
+  height: 87px;
+  border-radius: 40px;
+}
+
+body #footer {
+  padding-bottom: 40px;
+  background: #fff;
+  padding-top: 38px;
+}
+
+body #footer .container .row .col-lg-4 .footer-sol svg {
+  margin-bottom: 53px;
+}
+
+body #footer .container .row .col-lg-4 .footer-sol span {
+  display: block;
+  line-height: 1.1;
+  font-size: 26px;
+  color: #004E9C;
+}
+
+body #footer .container .row .col-lg-4 .footer-sol span span {
+  font-size: 33px;
+}
+
+body #footer .container .row .col-lg-6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #footer .container .row .col-lg-6 nav ul {
+  margin-top: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding: 0;
+}
+
+body #footer .container .row .col-lg-6 nav ul li {
+  white-space: nowrap;
+  margin-right: 15px;
+}
+
+body #footer .container .row .col-lg-6 nav ul li:last-child {
+  margin-right: 0;
+}
+
+body #footer .container .row .col-lg-6 nav ul li a {
+  color: #004E9C;
+  font-family: Gilroy Medium;
+  font-size: 20px;
+}
+
+body #footer .container .row .col-lg-6 nav .list-two {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+body #footer .container .row .col-lg-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #footer .container .row .col-lg-2 .footer-sag {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 33px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body #footer .container .row .col-lg-2 .footer-sag a {
+  color: #004E9C;
+  margin-right: 10px;
+}
+
+body #footer .container .row .col-lg-2 .footer-sag a i {
+  font-size: 18px;
+  display: block;
+}
+/*# sourceMappingURL=style.css.map */
