@@ -315,7 +315,7 @@ body main .mobil-menu .mobil-container nav .list-mobil.active {
 }
 
 body main #banner {
-  margin-bottom: 102px;
+  margin-bottom: 50px;
   padding-top: 118px;
 }
 
@@ -340,10 +340,11 @@ body main #banner .container .row .col-12 .banner-left .btn-banner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: 34px;
+  margin-left: 20px;
 }
 
 body main #banner .container .row .col-12 .banner-left .btn-banner .banner-btn {
@@ -364,25 +365,19 @@ body main #banner .container .row .col-12 .banner-left .btn-banner .banner-btn {
   background: #004E9C;
 }
 
-body main #banner .container .row .col-lg-7 .banner-right {
+body main #banner .container .row .right-col {
   position: relative;
 }
 
-body main #banner .container .row .col-lg-7 .banner-right img {
+body main #banner .container .row .right-col .banner-img {
   position: absolute;
-  top: 0px;
-  left: 77px;
-}
-
-body main #banner .container .row .col-lg-7 .banner-right .svg {
-  position: absolute;
+  top: -120px;
+  left: -125px;
   z-index: -1;
-  top: -100px;
-  left: -40px;
 }
 
 body main #blue {
-  margin-top: 250px;
+  margin-top: 150px;
   background: #004E9C;
 }
 
@@ -1280,17 +1275,23 @@ body #footer-two .svg-abs {
   body main #banner {
     padding-top: 60px;
   }
-  body main #banner .container {
-    height: 75vh;
+  body main #banner .container .row .left-col {
+    margin-top: 50px;
+    -webkit-box-ordinal-group: 3 !important;
+        -ms-flex-order: 2 !important;
+            order: 2 !important;
   }
-  body main #banner .container .row .col-lg-5 .banner-left {
+  body main #banner .container .row .left-col .banner-left {
     text-align: center;
   }
-  body main #banner .container .row .col-lg-5 .banner-left .btn-banner {
+  body main #banner .container .row .left-col .banner-left .btn-banner {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
     margin-bottom: 70px;
+  }
+  body main #banner .container .row .left-col .banner-left .btn-banner {
+    margin-bottom: 0 !important;
   }
   body main #blue .container {
     height: auto;
@@ -1385,23 +1386,17 @@ body #footer-two .svg-abs {
   body main .form-modal form .input-flex .calendar {
     top: 325px;
   }
-  body main #banner .container {
-    height: 65vh;
-  }
-  body main #banner .container .row .col-lg-5 .banner-left .banner-title {
+  body main #banner .container .row .col-12 .banner-left .banner-title {
     font-size: 40px;
   }
-  body main #banner .container .row .col-lg-7 {
+  body main #banner .container .row .col-12 {
     margin-top: 18px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
-  body main #banner .container .row .col-lg-7 img {
+  body main #banner .container .row .col-12 img {
     width: 90%;
-  }
-  body main #banner .container .row .col-lg-7 img.bus {
-    top: -20px;
   }
   body main #blue {
     margin-top: 50px;
@@ -1426,6 +1421,22 @@ body #footer-two .svg-abs {
   }
   body .work .roket-img {
     margin: 35px 0;
+  }
+  body main #banner .container .row .right-col {
+    -webkit-box-pack: end !important;
+        -ms-flex-pack: end !important;
+            justify-content: flex-end !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+  body main #banner .container .row .right-col .banner-img {
+    top: -75px;
+    left: -15px;
+    width: 80%;
+  }
+  body main #banner .container .row .left-col .btn-banner {
+    margin-left: 0 !important;
   }
 }
 
