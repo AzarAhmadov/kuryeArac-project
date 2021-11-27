@@ -1,507 +1,1076 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kargo</title>
-    <link rel="stylesheet" href="assets/stil/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/stil/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-</head>
-<body>
+    <link rel="stylesheet" href="assets/stil/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/stil/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body id="body">
     <header id="header">
-        <div class="container">
-          <div class="row">
-            <div class="col-4">
-              <div class="h-left">
-                <a href="#">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="254.999" height="51.758" viewBox="0 0 254.999 51.758">
-                    <g id="Group_525" data-name="Group 525" transform="translate(127.5 25.879)">
-                      <g id="Group_525-2" data-name="Group 525" transform="translate(-127.5 -25.879)">
-                        <g id="Group_1" data-name="Group 1">
-                          <path id="Path_1" data-name="Path 1" d="M1.59,2.265V8.794l19.59,9.8v19.59l6.533,3.266V15.318Z"
-                            transform="translate(4.943 7.041)" fill="#ffcb00" />
-                          <path id="Path_2" data-name="Path 2" d="M4.768.8V7.328l19.59,9.8v19.59l6.533,3.266V13.848Z"
-                            transform="translate(14.822 2.471)" fill="#ffcb00" />
-                          <path id="Path_3" data-name="Path 3"
-                            d="M26.119,0,0,12.938V38.819l6.529,3.234V16.176l19.59-9.7,19.594,9.7v19.41l-19.594,9.7L13.062,38.819v6.467l13.058,6.471L52.242,38.819V12.938Z"
-                            fill="#004e9c" />
-                          <path id="Path_4" data-name="Path 4"
-                            d="M13.062,1.59,0,8.053v6.459L13.062,8.053l19.594,9.688V37.122L19.594,43.585l6.537,3.229,13.053-6.459V14.512Z"
-                            transform="translate(0 4.943)" fill="#004e9c" />
-                          <path id="Path_5" data-name="Path 5" d="M0,3.06V9.589l19.594,9.8V38.978l6.529,3.266V16.113Z"
-                            transform="translate(0 9.513)" fill="#004e9c" />
-                          <path id="Path_6" data-name="Path 6"
-                            d="M1.59,25.038,8.119,28.3V21.772l6.533,3.266V11.977L1.59,5.444Z"
-                            transform="translate(4.943 16.924)" fill="#ffcb00" />
-                        </g>
-                        <g id="Group_2" data-name="Group 2" transform="translate(62.395 13.674)">
-                          <path id="Path_7" data-name="Path 7"
-                            d="M31.321,28.682V9.309H22.61V28.682H15.186V3.434H38.741V28.682Z"
-                            transform="translate(-15.186 -2.998)" fill="#004e9c" />
-                          <path id="Path_8" data-name="Path 8"
-                            d="M47.153,16.4c0,8.061-4.922,13.053-12.721,13.053S21.7,24.459,21.7,16.4,26.63,3.328,34.433,3.328,47.153,8.328,47.153,16.4Zm-17.881,0c0,4.355,2.046,7.137,5.161,7.137s5.161-2.777,5.161-7.137S37.531,9.24,34.433,9.24,29.272,12.018,29.272,16.4Z"
-                            transform="translate(5.077 -3.328)" fill="#004e9c" />
-                          <path id="Path_9" data-name="Path 9"
-                            d="M28.7,3.434h7.42V22.8h5.218V3.434h7.42V22.8h5.214V3.434h7.42V28.682H28.708V3.434Z"
-                            transform="translate(26.813 -2.998)" fill="#004e9c" />
-                          <path id="Path_10" data-name="Path 10"
-                            d="M44.008,28.682V9.334H37.36v-5.9H58.076v5.9H51.424V28.686H44Z"
-                            transform="translate(53.747 -2.998)" fill="#004e9c" />
-                          <path id="Path_11" data-name="Path 11"
-                            d="M58.783,23.661h-7.7l-1.315,5.021H42.213L50.455,3.434h9.306L68,28.682H60.1Zm-6.348-5.23h5L55.008,9.264h-.14Z"
-                            transform="translate(68.833 -2.998)" fill="#004e9c" />
-                          <path id="Path_12" data-name="Path 12"
-                            d="M53.963,28.682V22.909a5.039,5.039,0,0,0,1.68.173,3.546,3.546,0,0,0,2.991-1.048L50.5,3.434h7.856L62.616,15.14h.136L66.638,3.434H74.5L66.757,21.455c-2.009,4.672-4.544,7.507-9.832,7.507A16.292,16.292,0,0,1,53.963,28.682Z"
-                            transform="translate(94.605 -2.998)" fill="#004e9c" />
-                          <path id="Path_13" data-name="Path 13"
-                            d="M72.357,23.656h-7.7l-1.315,5.021H55.787L64.025,3.433h9.306l8.242,25.244H73.668Zm-6.352-5.23h5L68.582,9.267h-.136Z"
-                            transform="translate(111.031 -3.002)" fill="#004e9c" />
-                        </g>
-                      </g>
-                    </g>
-                  </svg>
-                </a>
-              </div>
-            </div>
-            <div class="col-8  d-flex justify-content-end align-items-center">
-              <div class="h-right d-flex align-items-center">
-                <button class="search">
-                  <svg id="Group_39" data-name="Group 39" xmlns="http://www.w3.org/2000/svg" width="17.914" height="18.914"
-                    viewBox="0 0 17.914 18.914">
-                    <g id="Ellipse_1" data-name="Ellipse 1" fill="none" stroke="#44709b" stroke-width="2">
-                      <circle cx="8" cy="8" r="8" stroke="none" />
-                      <circle cx="8" cy="8" r="7" fill="none" />
-                    </g>
-                    <line id="Line_1" data-name="Line 1" x1="4" y1="4" transform="translate(12.5 13.5)" fill="none"
-                      stroke="#44709b" stroke-linecap="round" stroke-width="2" />
-                  </svg>
-                  <span>
-                    <input type="text" placeholder="Ne arasmistiniz">
-                  </span>
-                </button>
-                <svg class="phone" xmlns="http://www.w3.org/2000/svg" width="14.015" height="12.847"
-                  viewBox="0 0 14.015 12.847">
-                  <g id="Group_10" data-name="Group 10" transform="translate(0 -21.333)">
-                    <g id="Group_9" data-name="Group 9" transform="translate(0 21.333)">
-                      <g id="Group_8" data-name="Group 8">
-                        <path id="Path_18" data-name="Path 18"
-                          d="M13.777,24.281a9.245,9.245,0,0,0-13.538,0,.891.891,0,0,0,0,1.214l1.347,1.416a.84.84,0,0,0,1.194,0A5.916,5.916,0,0,1,4.3,25.752a.85.85,0,0,0,.457-.732l.2-1.535a6.06,6.06,0,0,1,4.1,0l.2,1.5a.878.878,0,0,0,.452.773,5.934,5.934,0,0,1,1.522,1.16.82.82,0,0,0,1.194,0l1.35-1.42A.891.891,0,0,0,13.777,24.281Z"
-                          transform="translate(0 -21.333)" fill="#44709b" />
-                        <path id="Path_19" data-name="Path 19"
-                          d="M52.306,192.773A1.458,1.458,0,0,0,51.017,192H46a1.458,1.458,0,0,0-1.288.773l-1.869,3.5a1.467,1.467,0,0,0-.172.687v2.044a1.169,1.169,0,0,0,1.168,1.168h9.343a1.169,1.169,0,0,0,1.168-1.168v-2.044a1.469,1.469,0,0,0-.172-.687Zm-5.552,5.651a.584.584,0,1,1,.584-.584A.585.585,0,0,1,46.754,198.423Zm0-1.752a.584.584,0,1,1,.584-.584A.585.585,0,0,1,46.754,196.672Zm0-1.752a.584.584,0,1,1,.584-.584A.585.585,0,0,1,46.754,194.92Zm1.752,3.5a.584.584,0,1,1,.584-.584A.585.585,0,0,1,48.507,198.423Zm0-1.752a.584.584,0,1,1,.584-.584A.585.585,0,0,1,48.507,196.672Zm0-1.752a.584.584,0,1,1,.584-.584A.585.585,0,0,1,48.507,194.92Zm1.751,3.5a.584.584,0,1,1,.584-.584A.585.585,0,0,1,50.258,198.423Zm0-1.752a.584.584,0,1,1,.584-.584A.585.585,0,0,1,50.258,196.672Zm0-1.752a.584.584,0,1,1,.584-.584A.585.585,0,0,1,50.258,194.92Z"
-                          transform="translate(-41.499 -187.328)" fill="#44709b" />
-                      </g>
-                    </g>
-                  </g>
-                </svg>
-                <span class="number">
-                  +380 66 746 4242
-                </span>
-                <span class="circle"></span>
-                <div class="option">
-                  <select name="lang" id="lang">
-                    <option value="TR"> TR </option>
-                  </select>
-                </div>
-    
-                <a href="#" class="giris"> Giriş yap </a>
-                <a href="#" class="kayit"> Kayıt ol </a>
-              </div>
-              <div class="open-menu open">
-                <i class="fas fa-bars"></i>
-            </div>
-            </div>
-          </div>
-        </div>
-      </header>
-
-      <main>
-        <div class="list-bottom">
-            <div class="container">
-              <ul>
-                <li><a href="#"> Ticari Müşteriler </a></li>
-                <li><a href="#"> Uluslararası Teslimat </a></li>
-                <li><a href="#"> Şubeler </a></li>
-                <li><a href="#"> Franchise </a></li>
-                <li><a href="#"> Haberler </a></li>
-                <li><a href="#"> Kurumsal
-                    <svg xmlns="http://www.w3.org/2000/svg" width="8.514" height="4.463" viewBox="0 0 8.514 4.463">
-                      <g id="Group_7" data-name="Group 7" transform="translate(-1331.556 -1422.242)">
-                        <g id="Group_6" data-name="Group 6" transform="translate(1331.556 1422.242)">
-                          <path id="Path_16" data-name="Path 16"
-                            d="M1335.818,1425.734l2.139-2.028c.467-.443.932-.887,1.4-1.327a.405.405,0,0,1,.7.172.422.422,0,0,1-.156.432q-.763.719-1.523,1.442l-2.206,2.09a.431.431,0,0,1-.709.007q-1.859-1.76-3.715-3.524a.7.7,0,0,1-.18-.288.375.375,0,0,1,.193-.411.387.387,0,0,1,.466.046c.23.207.452.422.676.634l2.8,2.655C1335.738,1425.665,1335.772,1425.694,1335.818,1425.734Z"
-                            transform="translate(-1331.556 -1422.242)" fill="#44709b" />
-                        </g>
-                      </g>
-                    </svg>
-      
-                  </a></li>
-                <li><a href="#"> S.S.S</a></li>
-                <li><a href="#"> İletişim</a></li>
-              </ul>
-            </div>
-          </div>
-      
-          <div class="mobil-menu">
-            <div class="mobil-container">
-                <nav>
-                    <ul class="list-mobil">
-                        <li><a href="#"> Ticari Müşteriler </a></li>
-                        <li><a href="#">  Uluslararası Teslimat </a></li>
-                        <li><a href="#">Şubeler </a></li>
-                        <li><a href="#"> Franchise </a></li>
-                        <li><a href="#">Haberler </a></li>
-                        <li><a href="#">Kurumsal
-                          <svg xmlns="http://www.w3.org/2000/svg" width="8.514" height="4.463" viewBox="0 0 8.514 4.463">
-                            <g id="Group_7" data-name="Group 7" transform="translate(-1331.556 -1422.242)">
-                              <g id="Group_6" data-name="Group 6" transform="translate(1331.556 1422.242)">
-                                <path id="Path_16" data-name="Path 16"
-                                  d="M1335.818,1425.734l2.139-2.028c.467-.443.932-.887,1.4-1.327a.405.405,0,0,1,.7.172.422.422,0,0,1-.156.432q-.763.719-1.523,1.442l-2.206,2.09a.431.431,0,0,1-.709.007q-1.859-1.76-3.715-3.524a.7.7,0,0,1-.18-.288.375.375,0,0,1,.193-.411.387.387,0,0,1,.466.046c.23.207.452.422.676.634l2.8,2.655C1335.738,1425.665,1335.772,1425.694,1335.818,1425.734Z"
-                                  transform="translate(-1331.556 -1422.242)" fill="#44709b" />
-                              </g>
-                            </g>
-                          </svg>
-             </a></li>
-             <li><a href="#"> S.S.S </a></li>
-             <li><a href="#"> İletişim
-                </a></li>
-                        <div class="mobil-flex d-flex align-items-end mt-3">
-                          <a href="#" class="giris m-0"> Giriş yap </a>
-                  <a href="#" class="kayit"> Kayıt ol </a>
-                        </div>
-                        <div class="close-btn">
-                            <i class="fas fa-times"></i>
-                        </div>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-
-
-        <div class="work">
-            <div class="container g-0">
-              <h3 class="work-title">
-                Work
-              </h3>
-              <div class="row">
-                <div class="work-top">
-                <div class="work-item">
-                  <h5 class="work-item-title">
-                    IT Bölümü - Project Manager
-                  </h5>
-                  <p class="work-content">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-                    ea.
-                  </p>
-                  <div class="work-bottom">
-                    <div class="work-flex">
-                      <span> <svg xmlns="http://www.w3.org/2000/svg" width="15" height="20.769" viewBox="0 0 15 20.769">
-                          <g id="location" transform="translate(-76)">
-                            <path id="Path_1708" data-name="Path 1708"
-                              d="M82.98,20.5a.635.635,0,0,0,1.04,0c1.479-2.16,3.658-4.828,5.176-7.541A11.857,11.857,0,0,0,91,7.3a7.5,7.5,0,0,0-15,0,11.858,11.858,0,0,0,1.8,5.656C79.321,15.669,81.5,18.343,82.98,20.5ZM83.5,1.217A6.176,6.176,0,0,1,89.75,7.3,10.744,10.744,0,0,1,88.1,12.376a76.419,76.419,0,0,1-4.6,6.7,76.418,76.418,0,0,1-4.6-6.7A10.744,10.744,0,0,1,77.25,7.3,6.176,6.176,0,0,1,83.5,1.217Z"
-                              fill="#ffd605" />
-                            <path id="Path_1709" data-name="Path 1709"
-                              d="M169.651,97.3A3.651,3.651,0,1,0,166,93.651,3.655,3.655,0,0,0,169.651,97.3Zm0-6.085a2.434,2.434,0,1,1-2.434,2.434A2.437,2.437,0,0,1,169.651,91.217Z"
-                              transform="translate(-86.151 -86.349)" fill="#ffd605" />
-                          </g>
-                        </svg>
-                        Kyiv, Sjechenova St. </span>
-                    </div>
-                    <div class="work-flex">
-                      <span>
-                        <svg id="time" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
-                          <g id="Group_489" data-name="Group 489">
-                            <path id="Path_1710" data-name="Path 1710"
-                              d="M9,18A9,9,0,1,0,0,9,9.011,9.011,0,0,0,9,18ZM9,1.2A7.8,7.8,0,1,1,1.2,9,7.807,7.807,0,0,1,9,1.2Z"
-                              fill="#ffd605" />
-                            <path id="Path_1711" data-name="Path 1711"
-                              d="M170.892,80.126a.591.591,0,0,0,.375.132.6.6,0,0,0,.375-1.068l-2.775-2.22V72.458a.6.6,0,0,0-1.2,0v4.8a.6.6,0,0,0,.225.468Z"
-                              transform="translate(-159.267 -68.258)" fill="#ffd605" />
-                          </g>
-                        </svg>
-                        08:00 - 20:00</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="geri">
-                <a href="#" class="geri-btn"> <svg xmlns="http://www.w3.org/2000/svg" width="10.942" height="9.538"
-                    viewBox="0 0 10.942 9.538">
-                    <g id="Group_383" data-name="Group 383" transform="translate(973.208 269.669)">
-                      <g id="Group_382" data-name="Group 382" transform="translate(-977.733 -274.9)">
-                        <path id="Path_1671" data-name="Path 1671"
-                          d="M-833.522-106.558h.178c1.1,0,2.207.01,3.31.01,1.544,0,3.089-.007,4.634-.009a.625.625,0,0,1,.66.522.619.619,0,0,1-.629.728c-.626,0-1.253,0-1.879,0h-6.266c.063.07.1.116.142.158l2.15,2.151c.269.27.539.539.805.811a.62.62,0,0,1-.18.936.61.61,0,0,1-.794-.142l-4.042-4.043a.635.635,0,0,1,0-1q1.926-1.925,3.852-3.85a3.23,3.23,0,0,1,.337-.313.621.621,0,0,1,.837.16.584.584,0,0,1-.026.771c-.34.357-.693.7-1.042,1.05l-1.9,1.9C-833.412-106.675-833.451-106.633-833.522-106.558Z"
-                          transform="translate(840.201 115.932)" fill="#004e9c" />
-                      </g>
-                    </g>
-                  </svg>
-                  Geri Dön </a>
-              </div>
-             <div class="kapsa d-flex flex-wrap">
-                <div class="col-lg-6">
-                    <div class="work-left-item">
-                        <h4 class="title-for-work">
-                          Aranan Nitelikler
-                        </h4>
-                        <div class="work-content d-flex flex-column">
-                            <span> <svg id="Group_386" data-name="Group 386" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
-                              <g id="Group_385" data-name="Group 385">
-                                <path id="Path_1678" data-name="Path 1678" d="M9,0a9,9,0,1,0,9,9A9.01,9.01,0,0,0,9,0Zm2.78,9.53L8.03,13.28A.75.75,0,0,1,6.97,12.22L10.19,9,6.97,5.78A.75.75,0,0,1,8.03,4.72l3.75,3.75A.749.749,0,0,1,11.78,9.53Z" fill="#ffd605"/>
-                              </g>
-                            </svg>
-                            Kontrol etmediğin iş senin işin değildir. (Şehmus YAN)
-                             </span>
-                             <span> <svg id="Group_386" data-name="Group 386" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
-                              <g id="Group_385" data-name="Group 385">
-                                <path id="Path_1678" data-name="Path 1678" d="M9,0a9,9,0,1,0,9,9A9.01,9.01,0,0,0,9,0Zm2.78,9.53L8.03,13.28A.75.75,0,0,1,6.97,12.22L10.19,9,6.97,5.78A.75.75,0,0,1,8.03,4.72l3.75,3.75A.749.749,0,0,1,11.78,9.53Z" fill="#ffd605"/>
-                              </g>
-                            </svg>
-                            Kontrol etmediğin iş senin işin değildir. (Şehmus YAN)
-                             </span>
-                             <span> <svg id="Group_386" data-name="Group 386" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
-                              <g id="Group_385" data-name="Group 385">
-                                <path id="Path_1678" data-name="Path 1678" d="M9,0a9,9,0,1,0,9,9A9.01,9.01,0,0,0,9,0Zm2.78,9.53L8.03,13.28A.75.75,0,0,1,6.97,12.22L10.19,9,6.97,5.78A.75.75,0,0,1,8.03,4.72l3.75,3.75A.749.749,0,0,1,11.78,9.53Z" fill="#ffd605"/>
-                              </g>
-                            </svg>
-                            Kontrol etmediğin iş senin işin değildir. (Şehmus YAN)
-                             </span>
-                             <span> <svg id="Group_386" data-name="Group 386" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
-                              <g id="Group_385" data-name="Group 385">
-                                <path id="Path_1678" data-name="Path 1678" d="M9,0a9,9,0,1,0,9,9A9.01,9.01,0,0,0,9,0Zm2.78,9.53L8.03,13.28A.75.75,0,0,1,6.97,12.22L10.19,9,6.97,5.78A.75.75,0,0,1,8.03,4.72l3.75,3.75A.749.749,0,0,1,11.78,9.53Z" fill="#ffd605"/>
-                              </g>
-                            </svg>
-                            Kontrol etmediğin iş senin işin değildir. (Şehmus YAN)
-                             </span>
-                             <span> <svg id="Group_386" data-name="Group 386" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
-                              <g id="Group_385" data-name="Group 385">
-                                <path id="Path_1678" data-name="Path 1678" d="M9,0a9,9,0,1,0,9,9A9.01,9.01,0,0,0,9,0Zm2.78,9.53L8.03,13.28A.75.75,0,0,1,6.97,12.22L10.19,9,6.97,5.78A.75.75,0,0,1,8.03,4.72l3.75,3.75A.749.749,0,0,1,11.78,9.53Z" fill="#ffd605"/>
-                              </g>
-                            </svg>
-                            Kontrol etmediğin iş senin işin değildir. (Şehmus YAN)
-                             </span>
-                             <span> <svg id="Group_386" data-name="Group 386" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
-                              <g id="Group_385" data-name="Group 385">
-                                <path id="Path_1678" data-name="Path 1678" d="M9,0a9,9,0,1,0,9,9A9.01,9.01,0,0,0,9,0Zm2.78,9.53L8.03,13.28A.75.75,0,0,1,6.97,12.22L10.19,9,6.97,5.78A.75.75,0,0,1,8.03,4.72l3.75,3.75A.749.749,0,0,1,11.78,9.53Z" fill="#ffd605"/>
-                              </g>
-                            </svg>
-                            Kontrol etmediğin iş senin işin değildir. (Şehmus YAN)
-                             </span>
-                             <span> <svg id="Group_386" data-name="Group 386" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
-                              <g id="Group_385" data-name="Group 385">
-                                <path id="Path_1678" data-name="Path 1678" d="M9,0a9,9,0,1,0,9,9A9.01,9.01,0,0,0,9,0Zm2.78,9.53L8.03,13.28A.75.75,0,0,1,6.97,12.22L10.19,9,6.97,5.78A.75.75,0,0,1,8.03,4.72l3.75,3.75A.749.749,0,0,1,11.78,9.53Z" fill="#ffd605"/>
-                              </g>
-                            </svg>
-                            Kontrol etmediğin iş senin işin değildir. (Şehmus YAN)
-                             </span>
-                             <span> <svg id="Group_386" data-name="Group 386" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
-                              <g id="Group_385" data-name="Group 385">
-                                <path id="Path_1678" data-name="Path 1678" d="M9,0a9,9,0,1,0,9,9A9.01,9.01,0,0,0,9,0Zm2.78,9.53L8.03,13.28A.75.75,0,0,1,6.97,12.22L10.19,9,6.97,5.78A.75.75,0,0,1,8.03,4.72l3.75,3.75A.749.749,0,0,1,11.78,9.53Z" fill="#ffd605"/>
-                              </g>
-                            </svg>
-                            Kontrol etmediğin iş senin işin değildir. (Şehmus YAN)
-                             </span>
-                        </div>
-                        <h4 class="title-for-work mt-2">
-                            Özet Bilgiler
-                    </h4>
-                        <div class="work-ozel">
-                            <div>
-                                <span> Pozisyon </span>
-                            </div>
-                            <div>
-                            <span> : Project Manager </span>
-                            </div>
-                        </div>
-                        <div class="work-ozel">
-                            <div>
-                                <span> Pozisyon </span>
-                            </div>
-                            <div>
-                                <span> : Project Manager </span>
-                            </div>
-                        </div>
-                        <div class="work-ozel">
-                            <div>
-                                <span> Pozisyon </span>
-                            </div>
-                            <div>
-                                <span> : Project Manager </span>
-                            </div>
-                        </div>
-                        <div class="work-ozel">
-                            <div>
-                                <span> Pozisyon </span>
-                            </div>
-                            <div>
-                                <span> : Project Manager </span>
-                            </div>
-                        </div>
-                        <div class="work-ozel">
-                            <div>
-                                <span> Pozisyon </span>
-                            </div>
-                            <div>
-                                <span> : Project Manager </span>
-                            </div>
-                        </div>
-                        <div class="work-ozel">
-                            <div>
-                                <span> Pozisyon </span>
-                            </div>
-                            <div>
-                                <span> : Project Manager </span>
-                            </div>
-                        </div>
-                         <div class="work-ozel">
-                            <div>
-                                <span> Pozisyon </span>
-                            </div>
-                            <div>
-                                <span> : Project Manager </span>
-                            </div>
-                        </div>
-                        <div class="work-ozel">
-                            <div>
-                                <span> Pozisyon </span>
-                            </div>
-                            <div>
-                                <span> : Project Manager </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 d-flex align-items-center flex-column justify-content-center">
-                   <img class="roket-img mb-5" class="mb-5" src="./assets/svg/Group 530.png" alt="">
-                   <button id="ilan-btn">
-                    İlana Başvur
-                   </button>
-                </div>
-             </div>
-            </div>
-          </div>      
-      </main>
-
-      <footer id="footer-two">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <div class="h-left">
               <a href="#">
-                <svg xmlns="http://www.w3.org/2000/svg" width="254.999" height="51.758" viewBox="0 0 254.999 51.758">
-                  <g id="Group_525" data-name="Group 525" transform="translate(127.5 25.879)">
-                    <g id="Group_525-2" data-name="Group 525" transform="translate(-127.5 -25.879)">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="254.999"
+                  height="51.758"
+                  viewBox="0 0 254.999 51.758"
+                >
+                  <g
+                    id="Group_525"
+                    data-name="Group 525"
+                    transform="translate(127.5 25.879)"
+                  >
+                    <g
+                      id="Group_525-2"
+                      data-name="Group 525"
+                      transform="translate(-127.5 -25.879)"
+                    >
                       <g id="Group_1" data-name="Group 1">
-                        <path id="Path_1" data-name="Path 1" d="M1.59,2.265V8.794l19.59,9.8v19.59l6.533,3.266V15.318Z"
-                          transform="translate(4.943 7.041)" fill="#ffcb00" />
-                        <path id="Path_2" data-name="Path 2" d="M4.768.8V7.328l19.59,9.8v19.59l6.533,3.266V13.848Z"
-                          transform="translate(14.822 2.471)" fill="#ffcb00" />
-                        <path id="Path_3" data-name="Path 3"
+                        <path
+                          id="Path_1"
+                          data-name="Path 1"
+                          d="M1.59,2.265V8.794l19.59,9.8v19.59l6.533,3.266V15.318Z"
+                          transform="translate(4.943 7.041)"
+                          fill="#ffcb00"
+                        />
+                        <path
+                          id="Path_2"
+                          data-name="Path 2"
+                          d="M4.768.8V7.328l19.59,9.8v19.59l6.533,3.266V13.848Z"
+                          transform="translate(14.822 2.471)"
+                          fill="#ffcb00"
+                        />
+                        <path
+                          id="Path_3"
+                          data-name="Path 3"
                           d="M26.119,0,0,12.938V38.819l6.529,3.234V16.176l19.59-9.7,19.594,9.7v19.41l-19.594,9.7L13.062,38.819v6.467l13.058,6.471L52.242,38.819V12.938Z"
-                          fill="#004e9c" />
-                        <path id="Path_4" data-name="Path 4"
+                          fill="#004e9c"
+                        />
+                        <path
+                          id="Path_4"
+                          data-name="Path 4"
                           d="M13.062,1.59,0,8.053v6.459L13.062,8.053l19.594,9.688V37.122L19.594,43.585l6.537,3.229,13.053-6.459V14.512Z"
-                          transform="translate(0 4.943)" fill="#004e9c" />
-                        <path id="Path_5" data-name="Path 5" d="M0,3.06V9.589l19.594,9.8V38.978l6.529,3.266V16.113Z"
-                          transform="translate(0 9.513)" fill="#004e9c" />
-                        <path id="Path_6" data-name="Path 6"
+                          transform="translate(0 4.943)"
+                          fill="#004e9c"
+                        />
+                        <path
+                          id="Path_5"
+                          data-name="Path 5"
+                          d="M0,3.06V9.589l19.594,9.8V38.978l6.529,3.266V16.113Z"
+                          transform="translate(0 9.513)"
+                          fill="#004e9c"
+                        />
+                        <path
+                          id="Path_6"
+                          data-name="Path 6"
                           d="M1.59,25.038,8.119,28.3V21.772l6.533,3.266V11.977L1.59,5.444Z"
-                          transform="translate(4.943 16.924)" fill="#ffcb00" />
+                          transform="translate(4.943 16.924)"
+                          fill="#ffcb00"
+                        />
                       </g>
-                      <g id="Group_2" data-name="Group 2" transform="translate(62.395 13.674)">
-                        <path id="Path_7" data-name="Path 7"
+                      <g
+                        id="Group_2"
+                        data-name="Group 2"
+                        transform="translate(62.395 13.674)"
+                      >
+                        <path
+                          id="Path_7"
+                          data-name="Path 7"
                           d="M31.321,28.682V9.309H22.61V28.682H15.186V3.434H38.741V28.682Z"
-                          transform="translate(-15.186 -2.998)" fill="#004e9c" />
-                        <path id="Path_8" data-name="Path 8"
+                          transform="translate(-15.186 -2.998)"
+                          fill="#004e9c"
+                        />
+                        <path
+                          id="Path_8"
+                          data-name="Path 8"
                           d="M47.153,16.4c0,8.061-4.922,13.053-12.721,13.053S21.7,24.459,21.7,16.4,26.63,3.328,34.433,3.328,47.153,8.328,47.153,16.4Zm-17.881,0c0,4.355,2.046,7.137,5.161,7.137s5.161-2.777,5.161-7.137S37.531,9.24,34.433,9.24,29.272,12.018,29.272,16.4Z"
-                          transform="translate(5.077 -3.328)" fill="#004e9c" />
-                        <path id="Path_9" data-name="Path 9"
+                          transform="translate(5.077 -3.328)"
+                          fill="#004e9c"
+                        />
+                        <path
+                          id="Path_9"
+                          data-name="Path 9"
                           d="M28.7,3.434h7.42V22.8h5.218V3.434h7.42V22.8h5.214V3.434h7.42V28.682H28.708V3.434Z"
-                          transform="translate(26.813 -2.998)" fill="#004e9c" />
-                        <path id="Path_10" data-name="Path 10"
+                          transform="translate(26.813 -2.998)"
+                          fill="#004e9c"
+                        />
+                        <path
+                          id="Path_10"
+                          data-name="Path 10"
                           d="M44.008,28.682V9.334H37.36v-5.9H58.076v5.9H51.424V28.686H44Z"
-                          transform="translate(53.747 -2.998)" fill="#004e9c" />
-                        <path id="Path_11" data-name="Path 11"
+                          transform="translate(53.747 -2.998)"
+                          fill="#004e9c"
+                        />
+                        <path
+                          id="Path_11"
+                          data-name="Path 11"
                           d="M58.783,23.661h-7.7l-1.315,5.021H42.213L50.455,3.434h9.306L68,28.682H60.1Zm-6.348-5.23h5L55.008,9.264h-.14Z"
-                          transform="translate(68.833 -2.998)" fill="#004e9c" />
-                        <path id="Path_12" data-name="Path 12"
+                          transform="translate(68.833 -2.998)"
+                          fill="#004e9c"
+                        />
+                        <path
+                          id="Path_12"
+                          data-name="Path 12"
                           d="M53.963,28.682V22.909a5.039,5.039,0,0,0,1.68.173,3.546,3.546,0,0,0,2.991-1.048L50.5,3.434h7.856L62.616,15.14h.136L66.638,3.434H74.5L66.757,21.455c-2.009,4.672-4.544,7.507-9.832,7.507A16.292,16.292,0,0,1,53.963,28.682Z"
-                          transform="translate(94.605 -2.998)" fill="#004e9c" />
-                        <path id="Path_13" data-name="Path 13"
+                          transform="translate(94.605 -2.998)"
+                          fill="#004e9c"
+                        />
+                        <path
+                          id="Path_13"
+                          data-name="Path 13"
                           d="M72.357,23.656h-7.7l-1.315,5.021H55.787L64.025,3.433h9.306l8.242,25.244H73.668Zm-6.352-5.23h5L68.582,9.267h-.136Z"
-                          transform="translate(111.031 -3.002)" fill="#004e9c" />
+                          transform="translate(111.031 -3.002)"
+                          fill="#004e9c"
+                        />
                       </g>
                     </g>
                   </g>
                 </svg>
               </a>
             </div>
-            <div class="col-lg-8">
-              <nav>
-                <ul>
-                  <li><a href="#"> HAKKIMIZDA </a></li>
-                  <li><a href="#"> SİTE HARİTASI </a></li>
-                  <li><a href="#">ŞUBELERİMİZ </a></li>
-                  <li><a href="#"> ÖNERİ VE ŞİKAYET </a></li>
-                  <li><a href="#"> S.S.S </a></li>
-                </ul>
-              </nav>
+          </div>
+          <div class="col-8 d-flex justify-content-end align-items-center">
+            <div class="h-right d-flex align-items-center">
+              <button class="search">
+                <svg
+                  id="Group_39"
+                  data-name="Group 39"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="17.914"
+                  height="18.914"
+                  viewBox="0 0 17.914 18.914"
+                >
+                  <g
+                    id="Ellipse_1"
+                    data-name="Ellipse 1"
+                    fill="none"
+                    stroke="#44709b"
+                    stroke-width="2"
+                  >
+                    <circle cx="8" cy="8" r="8" stroke="none" />
+                    <circle cx="8" cy="8" r="7" fill="none" />
+                  </g>
+                  <line
+                    id="Line_1"
+                    data-name="Line 1"
+                    x1="4"
+                    y1="4"
+                    transform="translate(12.5 13.5)"
+                    fill="none"
+                    stroke="#44709b"
+                    stroke-linecap="round"
+                    stroke-width="2"
+                  />
+                </svg>
+                <span>
+                  <input type="text" placeholder="Ne arasmistiniz" />
+                </span>
+              </button>
+              <svg
+                class="phone"
+                xmlns="http://www.w3.org/2000/svg"
+                width="14.015"
+                height="12.847"
+                viewBox="0 0 14.015 12.847"
+              >
+                <g
+                  id="Group_10"
+                  data-name="Group 10"
+                  transform="translate(0 -21.333)"
+                >
+                  <g
+                    id="Group_9"
+                    data-name="Group 9"
+                    transform="translate(0 21.333)"
+                  >
+                    <g id="Group_8" data-name="Group 8">
+                      <path
+                        id="Path_18"
+                        data-name="Path 18"
+                        d="M13.777,24.281a9.245,9.245,0,0,0-13.538,0,.891.891,0,0,0,0,1.214l1.347,1.416a.84.84,0,0,0,1.194,0A5.916,5.916,0,0,1,4.3,25.752a.85.85,0,0,0,.457-.732l.2-1.535a6.06,6.06,0,0,1,4.1,0l.2,1.5a.878.878,0,0,0,.452.773,5.934,5.934,0,0,1,1.522,1.16.82.82,0,0,0,1.194,0l1.35-1.42A.891.891,0,0,0,13.777,24.281Z"
+                        transform="translate(0 -21.333)"
+                        fill="#44709b"
+                      />
+                      <path
+                        id="Path_19"
+                        data-name="Path 19"
+                        d="M52.306,192.773A1.458,1.458,0,0,0,51.017,192H46a1.458,1.458,0,0,0-1.288.773l-1.869,3.5a1.467,1.467,0,0,0-.172.687v2.044a1.169,1.169,0,0,0,1.168,1.168h9.343a1.169,1.169,0,0,0,1.168-1.168v-2.044a1.469,1.469,0,0,0-.172-.687Zm-5.552,5.651a.584.584,0,1,1,.584-.584A.585.585,0,0,1,46.754,198.423Zm0-1.752a.584.584,0,1,1,.584-.584A.585.585,0,0,1,46.754,196.672Zm0-1.752a.584.584,0,1,1,.584-.584A.585.585,0,0,1,46.754,194.92Zm1.752,3.5a.584.584,0,1,1,.584-.584A.585.585,0,0,1,48.507,198.423Zm0-1.752a.584.584,0,1,1,.584-.584A.585.585,0,0,1,48.507,196.672Zm0-1.752a.584.584,0,1,1,.584-.584A.585.585,0,0,1,48.507,194.92Zm1.751,3.5a.584.584,0,1,1,.584-.584A.585.585,0,0,1,50.258,198.423Zm0-1.752a.584.584,0,1,1,.584-.584A.585.585,0,0,1,50.258,196.672Zm0-1.752a.584.584,0,1,1,.584-.584A.585.585,0,0,1,50.258,194.92Z"
+                        transform="translate(-41.499 -187.328)"
+                        fill="#44709b"
+                      />
+                    </g>
+                  </g>
+                </g>
+              </svg>
+              <span class="number"> +380 66 746 4242 </span>
+              <span class="circle"></span>
+              <div class="option">
+                <select name="lang" id="lang">
+                  <option value="TR">TR</option>
+                </select>
+              </div>
+
+              <a href="#" class="giris"> Giriş yap </a>
+              <a href="#" class="kayit"> Kayıt ol </a>
             </div>
-            <div class="col-lg-2">
-              <div class="footer-link">
-                <a href="#"> <i class="fab fa-facebook-f"></i></a>
-                <a href="#"> <i class="fab fa-twitter"></i></a>
-                <a href="#"> <i class="fab fa-instagram"></i> </a>
+            <div class="open-menu open">
+              <i class="fas fa-bars"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="list-bottom">
+        <div class="container">
+          <ul>
+            <li><a href="#"> Ticari Müşteriler </a></li>
+            <li><a href="#"> Uluslararası Teslimat </a></li>
+            <li><a href="#"> Şubeler </a></li>
+            <li><a href="#"> Franchise </a></li>
+            <li><a href="#"> Haberler </a></li>
+            <li>
+              <a href="#">
+                Kurumsal
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="8.514"
+                  height="4.463"
+                  viewBox="0 0 8.514 4.463"
+                >
+                  <g
+                    id="Group_7"
+                    data-name="Group 7"
+                    transform="translate(-1331.556 -1422.242)"
+                  >
+                    <g
+                      id="Group_6"
+                      data-name="Group 6"
+                      transform="translate(1331.556 1422.242)"
+                    >
+                      <path
+                        id="Path_16"
+                        data-name="Path 16"
+                        d="M1335.818,1425.734l2.139-2.028c.467-.443.932-.887,1.4-1.327a.405.405,0,0,1,.7.172.422.422,0,0,1-.156.432q-.763.719-1.523,1.442l-2.206,2.09a.431.431,0,0,1-.709.007q-1.859-1.76-3.715-3.524a.7.7,0,0,1-.18-.288.375.375,0,0,1,.193-.411.387.387,0,0,1,.466.046c.23.207.452.422.676.634l2.8,2.655C1335.738,1425.665,1335.772,1425.694,1335.818,1425.734Z"
+                        transform="translate(-1331.556 -1422.242)"
+                        fill="#44709b"
+                      />
+                    </g>
+                  </g>
+                </svg>
+              </a>
+            </li>
+            <li><a href="#"> S.S.S</a></li>
+            <li><a href="#"> İletişim</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="mobil-menu">
+        <div class="mobil-container">
+          <nav>
+            <ul class="list-mobil">
+              <li><a href="#"> Ticari Müşteriler </a></li>
+              <li><a href="#"> Uluslararası Teslimat </a></li>
+              <li><a href="#">Şubeler </a></li>
+              <li><a href="#"> Franchise </a></li>
+              <li><a href="#">Haberler </a></li>
+              <li>
+                <a href="#"
+                  >Kurumsal
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="8.514"
+                    height="4.463"
+                    viewBox="0 0 8.514 4.463"
+                  >
+                    <g
+                      id="Group_7"
+                      data-name="Group 7"
+                      transform="translate(-1331.556 -1422.242)"
+                    >
+                      <g
+                        id="Group_6"
+                        data-name="Group 6"
+                        transform="translate(1331.556 1422.242)"
+                      >
+                        <path
+                          id="Path_16"
+                          data-name="Path 16"
+                          d="M1335.818,1425.734l2.139-2.028c.467-.443.932-.887,1.4-1.327a.405.405,0,0,1,.7.172.422.422,0,0,1-.156.432q-.763.719-1.523,1.442l-2.206,2.09a.431.431,0,0,1-.709.007q-1.859-1.76-3.715-3.524a.7.7,0,0,1-.18-.288.375.375,0,0,1,.193-.411.387.387,0,0,1,.466.046c.23.207.452.422.676.634l2.8,2.655C1335.738,1425.665,1335.772,1425.694,1335.818,1425.734Z"
+                          transform="translate(-1331.556 -1422.242)"
+                          fill="#44709b"
+                        />
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+              </li>
+              <li><a href="#"> S.S.S </a></li>
+              <li><a href="#"> İletişim </a></li>
+              <div class="mobil-flex d-flex align-items-end mt-3">
+                <a href="#" class="giris m-0"> Giriş yap </a>
+                <a href="#" class="kayit"> Kayıt ol </a>
+              </div>
+              <div class="close-btn">
+                <i class="fas fa-times"></i>
+              </div>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <div class="work">
+        <div class="container g-0">
+          <h3 class="work-title">Work</h3>
+          <div class="row">
+            <div class="work-top">
+              <div class="work-item">
+                <h5 class="work-item-title">IT Bölümü - Project Manager</h5>
+                <p class="work-content">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea.
+                </p>
+                <div class="work-bottom">
+                  <div class="work-flex">
+                    <span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="15"
+                        height="20.769"
+                        viewBox="0 0 15 20.769"
+                      >
+                        <g id="location" transform="translate(-76)">
+                          <path
+                            id="Path_1708"
+                            data-name="Path 1708"
+                            d="M82.98,20.5a.635.635,0,0,0,1.04,0c1.479-2.16,3.658-4.828,5.176-7.541A11.857,11.857,0,0,0,91,7.3a7.5,7.5,0,0,0-15,0,11.858,11.858,0,0,0,1.8,5.656C79.321,15.669,81.5,18.343,82.98,20.5ZM83.5,1.217A6.176,6.176,0,0,1,89.75,7.3,10.744,10.744,0,0,1,88.1,12.376a76.419,76.419,0,0,1-4.6,6.7,76.418,76.418,0,0,1-4.6-6.7A10.744,10.744,0,0,1,77.25,7.3,6.176,6.176,0,0,1,83.5,1.217Z"
+                            fill="#ffd605"
+                          />
+                          <path
+                            id="Path_1709"
+                            data-name="Path 1709"
+                            d="M169.651,97.3A3.651,3.651,0,1,0,166,93.651,3.655,3.655,0,0,0,169.651,97.3Zm0-6.085a2.434,2.434,0,1,1-2.434,2.434A2.437,2.437,0,0,1,169.651,91.217Z"
+                            transform="translate(-86.151 -86.349)"
+                            fill="#ffd605"
+                          />
+                        </g>
+                      </svg>
+                      Kyiv, Sjechenova St.
+                    </span>
+                  </div>
+                  <div class="work-flex">
+                    <span>
+                      <svg
+                        id="time"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="18"
+                        height="18"
+                        viewBox="0 0 18 18"
+                      >
+                        <g id="Group_489" data-name="Group 489">
+                          <path
+                            id="Path_1710"
+                            data-name="Path 1710"
+                            d="M9,18A9,9,0,1,0,0,9,9.011,9.011,0,0,0,9,18ZM9,1.2A7.8,7.8,0,1,1,1.2,9,7.807,7.807,0,0,1,9,1.2Z"
+                            fill="#ffd605"
+                          />
+                          <path
+                            id="Path_1711"
+                            data-name="Path 1711"
+                            d="M170.892,80.126a.591.591,0,0,0,.375.132.6.6,0,0,0,.375-1.068l-2.775-2.22V72.458a.6.6,0,0,0-1.2,0v4.8a.6.6,0,0,0,.225.468Z"
+                            transform="translate(-159.267 -68.258)"
+                            fill="#ffd605"
+                          />
+                        </g>
+                      </svg>
+                      08:00 - 20:00</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="geri">
+              <a href="#" class="geri-btn">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="10.942"
+                  height="9.538"
+                  viewBox="0 0 10.942 9.538"
+                >
+                  <g
+                    id="Group_383"
+                    data-name="Group 383"
+                    transform="translate(973.208 269.669)"
+                  >
+                    <g
+                      id="Group_382"
+                      data-name="Group 382"
+                      transform="translate(-977.733 -274.9)"
+                    >
+                      <path
+                        id="Path_1671"
+                        data-name="Path 1671"
+                        d="M-833.522-106.558h.178c1.1,0,2.207.01,3.31.01,1.544,0,3.089-.007,4.634-.009a.625.625,0,0,1,.66.522.619.619,0,0,1-.629.728c-.626,0-1.253,0-1.879,0h-6.266c.063.07.1.116.142.158l2.15,2.151c.269.27.539.539.805.811a.62.62,0,0,1-.18.936.61.61,0,0,1-.794-.142l-4.042-4.043a.635.635,0,0,1,0-1q1.926-1.925,3.852-3.85a3.23,3.23,0,0,1,.337-.313.621.621,0,0,1,.837.16.584.584,0,0,1-.026.771c-.34.357-.693.7-1.042,1.05l-1.9,1.9C-833.412-106.675-833.451-106.633-833.522-106.558Z"
+                        transform="translate(840.201 115.932)"
+                        fill="#004e9c"
+                      />
+                    </g>
+                  </g>
+                </svg>
+                Geri Dön
+              </a>
+            </div>
+            <div class="kapsa d-flex flex-wrap">
+              <div class="col-lg-6">
+                <div class="work-left-item">
+                  <h4 class="title-for-work">Aranan Nitelikler</h4>
+                  <div class="work-content d-flex flex-column">
+                    <span>
+                      <svg
+                        id="Group_386"
+                        data-name="Group 386"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="18"
+                        height="18"
+                        viewBox="0 0 18 18"
+                      >
+                        <g id="Group_385" data-name="Group 385">
+                          <path
+                            id="Path_1678"
+                            data-name="Path 1678"
+                            d="M9,0a9,9,0,1,0,9,9A9.01,9.01,0,0,0,9,0Zm2.78,9.53L8.03,13.28A.75.75,0,0,1,6.97,12.22L10.19,9,6.97,5.78A.75.75,0,0,1,8.03,4.72l3.75,3.75A.749.749,0,0,1,11.78,9.53Z"
+                            fill="#ffd605"
+                          />
+                        </g>
+                      </svg>
+                      Kontrol etmediğin iş senin işin değildir. (Şehmus YAN)
+                    </span>
+                    <span>
+                      <svg
+                        id="Group_386"
+                        data-name="Group 386"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="18"
+                        height="18"
+                        viewBox="0 0 18 18"
+                      >
+                        <g id="Group_385" data-name="Group 385">
+                          <path
+                            id="Path_1678"
+                            data-name="Path 1678"
+                            d="M9,0a9,9,0,1,0,9,9A9.01,9.01,0,0,0,9,0Zm2.78,9.53L8.03,13.28A.75.75,0,0,1,6.97,12.22L10.19,9,6.97,5.78A.75.75,0,0,1,8.03,4.72l3.75,3.75A.749.749,0,0,1,11.78,9.53Z"
+                            fill="#ffd605"
+                          />
+                        </g>
+                      </svg>
+                      Kontrol etmediğin iş senin işin değildir. (Şehmus YAN)
+                    </span>
+                    <span>
+                      <svg
+                        id="Group_386"
+                        data-name="Group 386"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="18"
+                        height="18"
+                        viewBox="0 0 18 18"
+                      >
+                        <g id="Group_385" data-name="Group 385">
+                          <path
+                            id="Path_1678"
+                            data-name="Path 1678"
+                            d="M9,0a9,9,0,1,0,9,9A9.01,9.01,0,0,0,9,0Zm2.78,9.53L8.03,13.28A.75.75,0,0,1,6.97,12.22L10.19,9,6.97,5.78A.75.75,0,0,1,8.03,4.72l3.75,3.75A.749.749,0,0,1,11.78,9.53Z"
+                            fill="#ffd605"
+                          />
+                        </g>
+                      </svg>
+                      Kontrol etmediğin iş senin işin değildir. (Şehmus YAN)
+                    </span>
+                    <span>
+                      <svg
+                        id="Group_386"
+                        data-name="Group 386"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="18"
+                        height="18"
+                        viewBox="0 0 18 18"
+                      >
+                        <g id="Group_385" data-name="Group 385">
+                          <path
+                            id="Path_1678"
+                            data-name="Path 1678"
+                            d="M9,0a9,9,0,1,0,9,9A9.01,9.01,0,0,0,9,0Zm2.78,9.53L8.03,13.28A.75.75,0,0,1,6.97,12.22L10.19,9,6.97,5.78A.75.75,0,0,1,8.03,4.72l3.75,3.75A.749.749,0,0,1,11.78,9.53Z"
+                            fill="#ffd605"
+                          />
+                        </g>
+                      </svg>
+                      Kontrol etmediğin iş senin işin değildir. (Şehmus YAN)
+                    </span>
+                    <span>
+                      <svg
+                        id="Group_386"
+                        data-name="Group 386"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="18"
+                        height="18"
+                        viewBox="0 0 18 18"
+                      >
+                        <g id="Group_385" data-name="Group 385">
+                          <path
+                            id="Path_1678"
+                            data-name="Path 1678"
+                            d="M9,0a9,9,0,1,0,9,9A9.01,9.01,0,0,0,9,0Zm2.78,9.53L8.03,13.28A.75.75,0,0,1,6.97,12.22L10.19,9,6.97,5.78A.75.75,0,0,1,8.03,4.72l3.75,3.75A.749.749,0,0,1,11.78,9.53Z"
+                            fill="#ffd605"
+                          />
+                        </g>
+                      </svg>
+                      Kontrol etmediğin iş senin işin değildir. (Şehmus YAN)
+                    </span>
+                    <span>
+                      <svg
+                        id="Group_386"
+                        data-name="Group 386"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="18"
+                        height="18"
+                        viewBox="0 0 18 18"
+                      >
+                        <g id="Group_385" data-name="Group 385">
+                          <path
+                            id="Path_1678"
+                            data-name="Path 1678"
+                            d="M9,0a9,9,0,1,0,9,9A9.01,9.01,0,0,0,9,0Zm2.78,9.53L8.03,13.28A.75.75,0,0,1,6.97,12.22L10.19,9,6.97,5.78A.75.75,0,0,1,8.03,4.72l3.75,3.75A.749.749,0,0,1,11.78,9.53Z"
+                            fill="#ffd605"
+                          />
+                        </g>
+                      </svg>
+                      Kontrol etmediğin iş senin işin değildir. (Şehmus YAN)
+                    </span>
+                    <span>
+                      <svg
+                        id="Group_386"
+                        data-name="Group 386"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="18"
+                        height="18"
+                        viewBox="0 0 18 18"
+                      >
+                        <g id="Group_385" data-name="Group 385">
+                          <path
+                            id="Path_1678"
+                            data-name="Path 1678"
+                            d="M9,0a9,9,0,1,0,9,9A9.01,9.01,0,0,0,9,0Zm2.78,9.53L8.03,13.28A.75.75,0,0,1,6.97,12.22L10.19,9,6.97,5.78A.75.75,0,0,1,8.03,4.72l3.75,3.75A.749.749,0,0,1,11.78,9.53Z"
+                            fill="#ffd605"
+                          />
+                        </g>
+                      </svg>
+                      Kontrol etmediğin iş senin işin değildir. (Şehmus YAN)
+                    </span>
+                    <span>
+                      <svg
+                        id="Group_386"
+                        data-name="Group 386"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="18"
+                        height="18"
+                        viewBox="0 0 18 18"
+                      >
+                        <g id="Group_385" data-name="Group 385">
+                          <path
+                            id="Path_1678"
+                            data-name="Path 1678"
+                            d="M9,0a9,9,0,1,0,9,9A9.01,9.01,0,0,0,9,0Zm2.78,9.53L8.03,13.28A.75.75,0,0,1,6.97,12.22L10.19,9,6.97,5.78A.75.75,0,0,1,8.03,4.72l3.75,3.75A.749.749,0,0,1,11.78,9.53Z"
+                            fill="#ffd605"
+                          />
+                        </g>
+                      </svg>
+                      Kontrol etmediğin iş senin işin değildir. (Şehmus YAN)
+                    </span>
+                  </div>
+                  <h4 class="title-for-work mt-2">Özet Bilgiler</h4>
+                  <div class="work-ozel">
+                    <div>
+                      <span> Pozisyon </span>
+                    </div>
+                    <div>
+                      <span> : Project Manager </span>
+                    </div>
+                  </div>
+                  <div class="work-ozel">
+                    <div>
+                      <span> Pozisyon </span>
+                    </div>
+                    <div>
+                      <span> : Project Manager </span>
+                    </div>
+                  </div>
+                  <div class="work-ozel">
+                    <div>
+                      <span> Pozisyon </span>
+                    </div>
+                    <div>
+                      <span> : Project Manager </span>
+                    </div>
+                  </div>
+                  <div class="work-ozel">
+                    <div>
+                      <span> Pozisyon </span>
+                    </div>
+                    <div>
+                      <span> : Project Manager </span>
+                    </div>
+                  </div>
+                  <div class="work-ozel">
+                    <div>
+                      <span> Pozisyon </span>
+                    </div>
+                    <div>
+                      <span> : Project Manager </span>
+                    </div>
+                  </div>
+                  <div class="work-ozel">
+                    <div>
+                      <span> Pozisyon </span>
+                    </div>
+                    <div>
+                      <span> : Project Manager </span>
+                    </div>
+                  </div>
+                  <div class="work-ozel">
+                    <div>
+                      <span> Pozisyon </span>
+                    </div>
+                    <div>
+                      <span> : Project Manager </span>
+                    </div>
+                  </div>
+                  <div class="work-ozel">
+                    <div>
+                      <span> Pozisyon </span>
+                    </div>
+                    <div>
+                      <span> : Project Manager </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="
+                  col-lg-6
+                  d-flex
+                  align-items-center
+                  flex-column
+                  justify-content-center
+                "
+              >
+                <img
+                  class="roket-img mb-5"
+                  class="mb-5"
+                  src="./assets/svg/Group 530.png"
+                  alt=""
+                />
+                <button id="ilan-btn">İlana Başvur</button>
               </div>
             </div>
           </div>
         </div>
-        <span class="footer-last">
-          2021 © PosthaUA.com
-        </span>
-    
-        <div class="svg-abs">
-          <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="109.539" viewBox="0 0 617 109.539">
-            <g id="Component_6_1" data-name="Component 6 – 1" transform="translate(134 29.539)">
-              <circle id="Ellipse_19" data-name="Ellipse 19" cx="9" cy="9" r="9" fill="#ffcb00" />
-            </g>
-            <circle id="Ellipse_22" data-name="Ellipse 22" cx="3" cy="3" r="3"
-              transform="translate(481.402 82.291) rotate(-13)" fill="#b7f0a5" />
-            <circle id="Ellipse_21" data-name="Ellipse 21" cx="9" cy="9" r="9" transform="translate(0 66.539)"
-              fill="#ffcb00" />
-            <circle id="Ellipse_20" data-name="Ellipse 20" cx="12.5" cy="12.5" r="12.5" transform="translate(592 84.539)"
-              fill="#ffcb00" />
-            <rect id="Rectangle_51" data-name="Rectangle 51" width="16" height="16"
-              transform="translate(331.586 50.118) rotate(-22)" fill="#9ee9c8" />
-            <g id="Component_5_1" data-name="Component 5 – 1" transform="translate(105.471 84.539)">
-              <rect id="Rectangle_52" data-name="Rectangle 52" width="6.957" height="6.957"
-                transform="translate(0 2.606) rotate(-22)" fill="#b2d9ff" />
-            </g>
-            <g id="Component_7_1" data-name="Component 7 – 1" transform="translate(225 70.539)">
-              <path id="Polygon_1" data-name="Polygon 1" d="M6,0l6,10H0Z" fill="#ffadad" />
-            </g>
-            <g id="Group_377" data-name="Group 377" transform="translate(-695.24 -990.98)">
-              <g id="add_1_" data-name="add (1)" transform="translate(927.48 990.98)">
-                <g id="Group_374" data-name="Group 374">
-                  <g id="Group_373" data-name="Group 373">
-                    <path id="Path_1667" data-name="Path 1667"
-                      d="M9.52,0a9.52,9.52,0,1,0,9.52,9.52A9.53,9.53,0,0,0,9.52,0Zm0,17.564A8.045,8.045,0,1,1,17.564,9.52,8.054,8.054,0,0,1,9.52,17.564Z"
-                      fill="#fff" />
+      </div>
+
+      <div class="form-modal">
+        <h3 class="form-title">Başvuru Formu</h3>
+        <div class="form-input">
+          <form action="">
+            <div class="input-flex">
+              <input type="text" class="soyad" placeholder="Soyad" />
+              <input type="text" class="ad" placeholder="Ad" />
+            </div>
+            <div class="input-flex">
+              <select name="" id="cinsiyyet">
+                <option value="">Cinsiyyet</option>
+              </select>
+              <div class="input-abs2">
+                <input type="text" id="dogum" placeholder="Doğum Tarihi" />
+              </div>
+              <img
+                class="calendar"
+                src="./assets/img/calendar icon.png"
+                alt=""
+              />
+            </div>
+            <div class="input-flex">
+              <select name="" id="oblast">
+                <option value="">Oblast</option>
+              </select>
+              <select name="" id="yerlesim">
+                <option value="">Yerleşim Yeri</option>
+              </select>
+            </div>
+            <div class="input-flex">
+              <div class="input-abs">
+                <input type="text" class="number" />
+                <div class="input-bayrak">
+                  <img src="./assets/img/Group 83.png" alt="" />
+                  <span class="phone-code"> +380 </span>
+                </div>
+              </div>
+              <select name="" id="bolum">
+                <option value="">Bölüm</option>
+              </select>
+            </div>
+            <div class="input-flex">
+              <input type="email" placeholder="Mail" id="mail" />
+              <input
+                type="file"
+                id="file"
+                value="sdgfsdfd"
+                placeholder="sdfsdf"
+                name="yarrak"
+              />
+              <label for="file" class="file">
+                <svg
+                  id="add_1_"
+                  data-name="add (1)"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="19"
+                  height="19"
+                  viewBox="0 0 19 19"
+                >
+                  <g id="Group_374" data-name="Group 374">
+                    <g id="Group_373" data-name="Group 373">
+                      <path
+                        id="Path_1667"
+                        data-name="Path 1667"
+                        d="M9.5,0A9.5,9.5,0,1,0,19,9.5,9.51,9.51,0,0,0,9.5,0Zm0,17.528A8.028,8.028,0,1,1,17.528,9.5,8.038,8.038,0,0,1,9.5,17.528Z"
+                        fill="#004e9c"
+                      />
+                    </g>
                   </g>
-                </g>
-                <g id="Group_376" data-name="Group 376" transform="translate(5.095 5.029)">
-                  <g id="Group_375" data-name="Group 375">
-                    <path id="Path_1668" data-name="Path 1668"
-                      d="M145.133,138.925h-2.949v-2.949a.737.737,0,0,0-1.475,0v2.949h-2.949a.737.737,0,0,0,0,1.475h2.949v2.949a.737.737,0,1,0,1.475,0V140.4h2.949a.737.737,0,1,0,0-1.475Z"
-                      transform="translate(-137.022 -135.238)" fill="#fff" />
+                  <g
+                    id="Group_376"
+                    data-name="Group 376"
+                    transform="translate(5.076 5.01)"
+                  >
+                    <g id="Group_375" data-name="Group 375">
+                      <path
+                        id="Path_1668"
+                        data-name="Path 1668"
+                        d="M145.133,138.925h-2.949v-2.949a.737.737,0,0,0-1.475,0v2.949h-2.949a.737.737,0,0,0,0,1.475h2.949v2.949a.737.737,0,1,0,1.475,0V140.4h2.949a.737.737,0,1,0,0-1.475Z"
+                        transform="translate(-137.022 -135.238)"
+                        fill="#004e9c"
+                      />
+                    </g>
                   </g>
-                </g>
-              </g>
+                </svg>
+
+                CV Yükle
+              </label>
+            </div>
+          </form>
+          <button type="submit" class="form-btn">Gönder</button>
+        </div>
+
+        <div class="form-close">
+          <svg
+            id="Group_358"
+            data-name="Group 358"
+            xmlns="http://www.w3.org/2000/svg"
+            width="37"
+            height="37"
+            viewBox="0 0 37 37"
+          >
+            <g id="Group_357" data-name="Group 357">
+              <path
+                id="Path_1658"
+                data-name="Path 1658"
+                d="M-375.787,242.969a18.5,18.5,0,0,1-18.566-18.489,18.511,18.511,0,0,1,18.473-18.511A18.506,18.506,0,0,1-357.353,224.5,18.5,18.5,0,0,1-375.787,242.969ZM-377.55,224.6c-1.59,1.511-3.111,2.936-4.606,4.387-.768.745-.818,1.515-.2,2.1.575.545,1.349.459,2.053-.249,1.33-1.338,2.652-2.685,3.98-4.025.151-.152.323-.284.518-.455,1.522,1.529,2.991,3.01,4.468,4.485.722.721,1.537.79,2.114.2s.5-1.368-.246-2.111c-.944-.942-1.889-1.882-2.848-2.809-.553-.535-1.134-1.042-1.62-1.486,1.529-1.586,2.918-3.039,4.322-4.478.815-.836.952-1.61.357-2.223-.612-.63-1.391-.528-2.219.3q-1.79,1.785-3.575,3.575c-.258.258-.523.51-.824.8-1.491-1.5-2.9-2.933-4.331-4.35a2.161,2.161,0,0,0-.784-.557,1.192,1.192,0,0,0-1.5.543,1.3,1.3,0,0,0,.27,1.711Z"
+                transform="translate(394.353 -205.969)"
+                fill="#cde0f9"
+              />
             </g>
           </svg>
         </div>
-      </footer>
-<script src="assets/mainJs/app.js"></script>
-</body>
+      </div>
+    </main>
+    <footer id="footer-two">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-2">
+            <a href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="254.999"
+                height="51.758"
+                viewBox="0 0 254.999 51.758"
+              >
+                <g
+                  id="Group_525"
+                  data-name="Group 525"
+                  transform="translate(127.5 25.879)"
+                >
+                  <g
+                    id="Group_525-2"
+                    data-name="Group 525"
+                    transform="translate(-127.5 -25.879)"
+                  >
+                    <g id="Group_1" data-name="Group 1">
+                      <path
+                        id="Path_1"
+                        data-name="Path 1"
+                        d="M1.59,2.265V8.794l19.59,9.8v19.59l6.533,3.266V15.318Z"
+                        transform="translate(4.943 7.041)"
+                        fill="#ffcb00"
+                      />
+                      <path
+                        id="Path_2"
+                        data-name="Path 2"
+                        d="M4.768.8V7.328l19.59,9.8v19.59l6.533,3.266V13.848Z"
+                        transform="translate(14.822 2.471)"
+                        fill="#ffcb00"
+                      />
+                      <path
+                        id="Path_3"
+                        data-name="Path 3"
+                        d="M26.119,0,0,12.938V38.819l6.529,3.234V16.176l19.59-9.7,19.594,9.7v19.41l-19.594,9.7L13.062,38.819v6.467l13.058,6.471L52.242,38.819V12.938Z"
+                        fill="#004e9c"
+                      />
+                      <path
+                        id="Path_4"
+                        data-name="Path 4"
+                        d="M13.062,1.59,0,8.053v6.459L13.062,8.053l19.594,9.688V37.122L19.594,43.585l6.537,3.229,13.053-6.459V14.512Z"
+                        transform="translate(0 4.943)"
+                        fill="#004e9c"
+                      />
+                      <path
+                        id="Path_5"
+                        data-name="Path 5"
+                        d="M0,3.06V9.589l19.594,9.8V38.978l6.529,3.266V16.113Z"
+                        transform="translate(0 9.513)"
+                        fill="#004e9c"
+                      />
+                      <path
+                        id="Path_6"
+                        data-name="Path 6"
+                        d="M1.59,25.038,8.119,28.3V21.772l6.533,3.266V11.977L1.59,5.444Z"
+                        transform="translate(4.943 16.924)"
+                        fill="#ffcb00"
+                      />
+                    </g>
+                    <g
+                      id="Group_2"
+                      data-name="Group 2"
+                      transform="translate(62.395 13.674)"
+                    >
+                      <path
+                        id="Path_7"
+                        data-name="Path 7"
+                        d="M31.321,28.682V9.309H22.61V28.682H15.186V3.434H38.741V28.682Z"
+                        transform="translate(-15.186 -2.998)"
+                        fill="#004e9c"
+                      />
+                      <path
+                        id="Path_8"
+                        data-name="Path 8"
+                        d="M47.153,16.4c0,8.061-4.922,13.053-12.721,13.053S21.7,24.459,21.7,16.4,26.63,3.328,34.433,3.328,47.153,8.328,47.153,16.4Zm-17.881,0c0,4.355,2.046,7.137,5.161,7.137s5.161-2.777,5.161-7.137S37.531,9.24,34.433,9.24,29.272,12.018,29.272,16.4Z"
+                        transform="translate(5.077 -3.328)"
+                        fill="#004e9c"
+                      />
+                      <path
+                        id="Path_9"
+                        data-name="Path 9"
+                        d="M28.7,3.434h7.42V22.8h5.218V3.434h7.42V22.8h5.214V3.434h7.42V28.682H28.708V3.434Z"
+                        transform="translate(26.813 -2.998)"
+                        fill="#004e9c"
+                      />
+                      <path
+                        id="Path_10"
+                        data-name="Path 10"
+                        d="M44.008,28.682V9.334H37.36v-5.9H58.076v5.9H51.424V28.686H44Z"
+                        transform="translate(53.747 -2.998)"
+                        fill="#004e9c"
+                      />
+                      <path
+                        id="Path_11"
+                        data-name="Path 11"
+                        d="M58.783,23.661h-7.7l-1.315,5.021H42.213L50.455,3.434h9.306L68,28.682H60.1Zm-6.348-5.23h5L55.008,9.264h-.14Z"
+                        transform="translate(68.833 -2.998)"
+                        fill="#004e9c"
+                      />
+                      <path
+                        id="Path_12"
+                        data-name="Path 12"
+                        d="M53.963,28.682V22.909a5.039,5.039,0,0,0,1.68.173,3.546,3.546,0,0,0,2.991-1.048L50.5,3.434h7.856L62.616,15.14h.136L66.638,3.434H74.5L66.757,21.455c-2.009,4.672-4.544,7.507-9.832,7.507A16.292,16.292,0,0,1,53.963,28.682Z"
+                        transform="translate(94.605 -2.998)"
+                        fill="#004e9c"
+                      />
+                      <path
+                        id="Path_13"
+                        data-name="Path 13"
+                        d="M72.357,23.656h-7.7l-1.315,5.021H55.787L64.025,3.433h9.306l8.242,25.244H73.668Zm-6.352-5.23h5L68.582,9.267h-.136Z"
+                        transform="translate(111.031 -3.002)"
+                        fill="#004e9c"
+                      />
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </a>
+          </div>
+          <div class="col-lg-8">
+            <nav>
+              <ul>
+                <li><a href="#"> HAKKIMIZDA </a></li>
+                <li><a href="#"> SİTE HARİTASI </a></li>
+                <li><a href="#">ŞUBELERİMİZ </a></li>
+                <li><a href="#"> ÖNERİ VE ŞİKAYET </a></li>
+                <li><a href="#"> S.S.S </a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-lg-2">
+            <div class="footer-link">
+              <a href="#"> <i class="fab fa-facebook-f"></i></a>
+              <a href="#"> <i class="fab fa-twitter"></i></a>
+              <a href="#"> <i class="fab fa-instagram"></i> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <span class="footer-last"> 2021 © PosthaUA.com </span>
+
+      <div class="svg-abs">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="100%"
+          height="109.539"
+          viewBox="0 0 617 109.539"
+        >
+          <g
+            id="Component_6_1"
+            data-name="Component 6 – 1"
+            transform="translate(134 29.539)"
+          >
+            <circle
+              id="Ellipse_19"
+              data-name="Ellipse 19"
+              cx="9"
+              cy="9"
+              r="9"
+              fill="#ffcb00"
+            />
+          </g>
+          <circle
+            id="Ellipse_22"
+            data-name="Ellipse 22"
+            cx="3"
+            cy="3"
+            r="3"
+            transform="translate(481.402 82.291) rotate(-13)"
+            fill="#b7f0a5"
+          />
+          <circle
+            id="Ellipse_21"
+            data-name="Ellipse 21"
+            cx="9"
+            cy="9"
+            r="9"
+            transform="translate(0 66.539)"
+            fill="#ffcb00"
+          />
+          <circle
+            id="Ellipse_20"
+            data-name="Ellipse 20"
+            cx="12.5"
+            cy="12.5"
+            r="12.5"
+            transform="translate(592 84.539)"
+            fill="#ffcb00"
+          />
+          <rect
+            id="Rectangle_51"
+            data-name="Rectangle 51"
+            width="16"
+            height="16"
+            transform="translate(331.586 50.118) rotate(-22)"
+            fill="#9ee9c8"
+          />
+          <g
+            id="Component_5_1"
+            data-name="Component 5 – 1"
+            transform="translate(105.471 84.539)"
+          >
+            <rect
+              id="Rectangle_52"
+              data-name="Rectangle 52"
+              width="6.957"
+              height="6.957"
+              transform="translate(0 2.606) rotate(-22)"
+              fill="#b2d9ff"
+            />
+          </g>
+          <g
+            id="Component_7_1"
+            data-name="Component 7 – 1"
+            transform="translate(225 70.539)"
+          >
+            <path
+              id="Polygon_1"
+              data-name="Polygon 1"
+              d="M6,0l6,10H0Z"
+              fill="#ffadad"
+            />
+          </g>
+          <g
+            id="Group_377"
+            data-name="Group 377"
+            transform="translate(-695.24 -990.98)"
+          >
+            <g
+              id="add_1_"
+              data-name="add (1)"
+              transform="translate(927.48 990.98)"
+            >
+              <g id="Group_374" data-name="Group 374">
+                <g id="Group_373" data-name="Group 373">
+                  <path
+                    id="Path_1667"
+                    data-name="Path 1667"
+                    d="M9.52,0a9.52,9.52,0,1,0,9.52,9.52A9.53,9.53,0,0,0,9.52,0Zm0,17.564A8.045,8.045,0,1,1,17.564,9.52,8.054,8.054,0,0,1,9.52,17.564Z"
+                    fill="#fff"
+                  />
+                </g>
+              </g>
+              <g
+                id="Group_376"
+                data-name="Group 376"
+                transform="translate(5.095 5.029)"
+              >
+                <g id="Group_375" data-name="Group 375">
+                  <path
+                    id="Path_1668"
+                    data-name="Path 1668"
+                    d="M145.133,138.925h-2.949v-2.949a.737.737,0,0,0-1.475,0v2.949h-2.949a.737.737,0,0,0,0,1.475h2.949v2.949a.737.737,0,1,0,1.475,0V140.4h2.949a.737.737,0,1,0,0-1.475Z"
+                    transform="translate(-137.022 -135.238)"
+                    fill="#fff"
+                  />
+                </g>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </div>
+    </footer>
+    <script src="assets/mainJs/app.js"></script>
+  </body>
 </html>

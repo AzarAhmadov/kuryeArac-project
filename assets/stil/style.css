@@ -776,6 +776,260 @@ body main .work-left-item .work-ozel span {
   font-size: 18px;
 }
 
+body main .form-modal {
+  padding: 0 40px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 1000;
+  width: 700px;
+  height: 600px;
+  border-radius: 41px;
+  background: #fff;
+  visibility: hidden;
+  opacity: 0;
+  margin-top: 10px;
+  -webkit-transition: 400ms all;
+  transition: 400ms all;
+}
+
+body main .form-modal.active {
+  visibility: visible;
+  opacity: 1;
+  margin-top: 0;
+}
+
+body main .form-modal .form-title {
+  text-align: center;
+  padding-top: 37px;
+  color: #004E9C;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: Gilroy Bold;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+body main .form-modal .form-title::after {
+  position: absolute;
+  bottom: 0;
+  width: 50px;
+  height: 2px;
+  content: "";
+  background: #FFCB00;
+}
+
+body main .form-modal .form-input form .input-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .form-modal .form-input form .input-flex input {
+  width: 300px;
+  height: 55px;
+  margin-right: 20px;
+  padding: 0 15px;
+  -webkit-box-shadow: 0px 0px 8px #4B72AD26;
+          box-shadow: 0px 0px 8px #4B72AD26;
+  border-radius: 13px;
+  border: none;
+  outline: none;
+}
+
+body main .form-modal .form-input form .input-flex input:last-child {
+  margin-right: 0;
+}
+
+body main .form-modal .form-input form .input-flex #cinsiyyet,
+body main .form-modal .form-input form .input-flex #oblast,
+body main .form-modal .form-input form .input-flex #yerlesim,
+body main .form-modal .form-input form .input-flex #bolum,
+body main .form-modal .form-input form .input-flex .file {
+  padding: 0 15px;
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 8px #4B72AD26;
+          box-shadow: 0px 0px 8px #4B72AD26;
+  border-radius: 13px;
+  border: none;
+  outline: none;
+  color: #00366D;
+  font-family: Gilroy Medium;
+  width: 300px;
+  height: 55px;
+}
+
+body main .form-modal .form-input form .input-flex .soyad::-webkit-input-placeholder,
+body main .form-modal .form-input form .input-flex .ad::-webkit-input-placeholder {
+  color: #00366D;
+}
+
+body main .form-modal .form-input form .input-flex .soyad:-ms-input-placeholder,
+body main .form-modal .form-input form .input-flex .ad:-ms-input-placeholder {
+  color: #00366D;
+}
+
+body main .form-modal .form-input form .input-flex .soyad::-ms-input-placeholder,
+body main .form-modal .form-input form .input-flex .ad::-ms-input-placeholder {
+  color: #00366D;
+}
+
+body main .form-modal .form-input form .input-flex .soyad::placeholder,
+body main .form-modal .form-input form .input-flex .ad::placeholder {
+  color: #00366D;
+}
+
+body main .form-modal .form-input form .input-flex .input-abs2 {
+  position: relative;
+}
+
+body main .form-modal .form-input form .input-flex .calendar {
+  position: absolute;
+  right: 55px;
+}
+
+body main .form-modal .form-input form .input-flex #cinsiyyet {
+  margin-right: 20px;
+}
+
+body main .form-modal .form-input form .input-flex #oblast {
+  margin-right: 20px;
+}
+
+body main .form-modal .form-input form .input-flex #dogum {
+  font-family: Gilroy Medium;
+}
+
+body main .form-modal .form-input form .input-flex #dogum::-webkit-input-placeholder {
+  color: #00366D;
+}
+
+body main .form-modal .form-input form .input-flex #dogum:-ms-input-placeholder {
+  color: #00366D;
+}
+
+body main .form-modal .form-input form .input-flex #dogum::-ms-input-placeholder {
+  color: #00366D;
+}
+
+body main .form-modal .form-input form .input-flex #dogum::placeholder {
+  color: #00366D;
+}
+
+body main .form-modal .form-input form .input-flex #mail {
+  font-family: Gilroy Medium;
+}
+
+body main .form-modal .form-input form .input-flex #mail::-webkit-input-placeholder {
+  color: #00366D;
+}
+
+body main .form-modal .form-input form .input-flex #mail:-ms-input-placeholder {
+  color: #00366D;
+}
+
+body main .form-modal .form-input form .input-flex #mail::-ms-input-placeholder {
+  color: #00366D;
+}
+
+body main .form-modal .form-input form .input-flex #mail::placeholder {
+  color: #00366D;
+}
+
+body main .form-modal .form-input form .input-flex .input-abs .number {
+  margin-right: 20px;
+}
+
+body main .form-modal .form-input form .input-flex #file {
+  color: #00366D;
+  font-family: Gilroy Medium;
+  display: none;
+}
+
+body main .form-modal .form-input form .input-flex .file {
+  -webkit-box-shadow: 0px 0px 8px #4B72AD26;
+          box-shadow: 0px 0px 8px #4B72AD26;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #004E9C1F 0% 0% no-repeat padding-box;
+}
+
+body main .form-modal .form-input form .input-flex .file svg {
+  margin-right: 10px;
+}
+
+body main .form-modal .form-input form .input-flex .input-abs {
+  position: relative;
+}
+
+body main .form-modal .form-input form .input-flex .input-abs .number {
+  text-align: right;
+}
+
+body main .form-modal .form-input form .input-flex .input-abs .input-bayrak {
+  margin-top: 13px;
+  margin-left: 20px;
+  position: absolute;
+  top: 0;
+  background: #fff;
+  z-index: 100;
+}
+
+body main .form-modal .form-input form .input-flex .input-abs .input-bayrak .phone-code {
+  position: relative;
+}
+
+body main .form-modal .form-input form .input-flex .input-abs .input-bayrak .phone-code::after {
+  content: "";
+  height: 55px;
+  width: 1px;
+  top: -14px;
+  position: absolute;
+  right: -20px;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+body main .form-modal .form-input .form-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 103px;
+  margin: 30px auto;
+  color: #00366C;
+  background: #FFD605 0% 0% no-repeat padding-box;
+  border-radius: 39px;
+  height: 50px;
+  border: none;
+  font-family: Gilroy Bold;
+}
+
+body main .form-modal .form-close {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+}
+
 body #footer {
   padding-bottom: 40px;
   background: #fff;
@@ -1014,7 +1268,9 @@ body #footer-two .svg-abs {
   body .open i {
     display: block;
   }
-  body main .work-top #rayon, body main .work-top #yer, body main .work-top #bolum {
+  body main .work-top #rayon,
+  body main .work-top #yer,
+  body main .work-top #bolum {
     margin: 10px !important;
     width: 95% !important;
   }
@@ -1102,6 +1358,33 @@ body #footer-two .svg-abs {
 }
 
 @media only screen and (max-width: 600px) {
+  body main .form-modal {
+    overflow: auto;
+    height: 100vh;
+    width: 350px;
+    z-index: 1000;
+  }
+  body main .form-modal form .input-flex {
+    margin: 0 !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  body main .form-modal form .input-flex input {
+    margin-top: 13px;
+    margin-right: 0  !important;
+  }
+  body main .form-modal form .input-flex #cinsiyyet, body main .form-modal form .input-flex #oblast, body main .form-modal form .input-flex #bolum, body main .form-modal form .input-flex #yerlesim, body main .form-modal form .input-flex .file {
+    margin-right: 0 !important;
+    margin-top: 13px;
+  }
+  body main .form-modal form .input-flex .input-bayrak {
+    top: 13px !important;
+  }
+  body main .form-modal form .input-flex .calendar {
+    top: 325px;
+  }
   body main #banner .container {
     height: 65vh;
   }
