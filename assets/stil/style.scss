@@ -82,7 +82,7 @@ body {
 
         .h-right {
             .search {
-                width: 42px;
+                width: 32px;
                 height: 37px;
                 background: #F0F8FF 0% 0% no-repeat padding-box;
                 opacity: 1;
@@ -91,6 +91,27 @@ body {
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                position: relative;
+                
+                &:hover {
+                    width: 200px;
+                    padding-left: 10px;
+                    overflow: none;
+                    justify-content: flex-start;
+                }
+
+                &:hover span{
+                    margin-left: 10px;
+                    width: 100%;
+                    display: flex;
+                    justify-content: flex-start;
+                color: #44709B;
+                    visibility: visible;
+                }
+                span{
+                    width: 0;
+                    visibility: hidden;
+                }
             }
 
             .phone {
@@ -143,7 +164,13 @@ body {
                 border-radius: 15px;
                 display: flex;
                 align-items: center;
+                transition: 200ms all;
                 justify-content: center;
+                &:hover{
+                    border: none;
+                    background: #00366C;
+                    color:#fff;
+                }
             }
         }
     }
