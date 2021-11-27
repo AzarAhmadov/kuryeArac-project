@@ -27,6 +27,20 @@
   text-decoration: none !important;
 }
 
+.kapsa {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  max-width: 936px;
+  padding-bottom: 20px;
+  padding-top: 21px;
+  padding-left: 20px;
+  -webkit-box-shadow: 0px 0px 8px #4B72AD29;
+          box-shadow: 0px 0px 8px #4B72AD29;
+  border-radius: 22px;
+}
+
 .giris {
   color: #fff;
   border-radius: 15px;
@@ -707,6 +721,61 @@ body main .work .container .geri .geri-btn svg {
   margin-right: 10px;
 }
 
+body main .work .container #ilan-btn {
+  bottom: 44px;
+  background: #FFD605;
+  width: 142px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 39px;
+  border: none;
+  font-size: 18px;
+  color: #00366C;
+  font-family: Gilroy Medium;
+}
+
+body main .work-left-item .title-for-work {
+  color: #004E9C;
+  margin-bottom: 5px;
+  font-size: 24px;
+  font-family: Gilroy Medium;
+}
+
+body main .work-left-item .work-content span {
+  margin-bottom: 6px;
+  color: #00366C;
+  font-family: Gilroy Medium;
+  font-size: 18px;
+  white-space: nowrap;
+}
+
+body main .work-left-item .work-content span svg {
+  margin-right: 5px;
+}
+
+body main .work-left-item .work-ozel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body main .work-left-item .work-ozel span {
+  font-family: Gilroy Medium;
+  color: #00366C;
+  font-size: 18px;
+}
+
 body #footer {
   padding-bottom: 40px;
   background: #fff;
@@ -930,6 +999,12 @@ body #footer-two .svg-abs {
 }
 
 @media only screen and (max-width: 992px) {
+  body .kapsa {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   body .h-right {
     display: none !important;
   }
@@ -1059,6 +1134,15 @@ body #footer-two .svg-abs {
   }
   body main #card .container .row .col-lg-6 .card-item .card-content br {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  body .work .work-content span {
+    white-space: normal !important;
+  }
+  body .work .roket-img {
+    margin: 35px 0;
   }
 }
 
