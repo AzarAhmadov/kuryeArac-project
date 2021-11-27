@@ -1359,7 +1359,7 @@ body #footer-two .svg-abs {
 
 @media only screen and (max-width: 600px) {
   body main .form-modal {
-    overflow: auto;
+    overflow-y: auto;
     height: 100vh;
     width: 350px;
     z-index: 1000;

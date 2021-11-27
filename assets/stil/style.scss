@@ -1274,7 +1274,7 @@ body {
     @media only screen and (max-width:600px) {
         main {
        .form-modal{
-           overflow: auto;
+           overflow-y: auto;
            height: 100vh;
            width: 350px;
            z-index: 1000;
