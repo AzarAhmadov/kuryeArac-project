@@ -1426,10 +1426,7 @@ body #footer-two .svg-abs {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    top: 15px !important;
-  }
-  body main .form-modal form .input-flex .input-bayrak img {
-    margin-right: 6px;
+    top: 11px !important;
   }
   body main .form-modal form .input-flex .calendar {
     right: 43px !important;
