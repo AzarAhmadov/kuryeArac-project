@@ -1010,12 +1010,10 @@ body main .form-modal .form-input form .input-flex .input-abs .number {
 }
 
 body main .form-modal .form-input form .input-flex .input-abs .input-bayrak {
-  margin-top: 16px;
   margin-left: 20px;
   position: absolute;
-  top: 0;
+  top: 15px;
   background: #fff;
-  z-index: 100;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1426,7 +1424,7 @@ body #footer-two .svg-abs {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    top: 11px !important;
+    top: 27px !important;
   }
   body main .form-modal form .input-flex .calendar {
     right: 43px !important;

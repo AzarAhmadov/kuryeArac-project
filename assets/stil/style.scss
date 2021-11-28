@@ -859,12 +859,10 @@ body {
                             }
 
                             .input-bayrak {
-                                margin-top: 16px;
                                 margin-left: 20px;
                                 position: absolute;
-                                top: 0;
+                                top: 15px;
                                 background: #fff;
-                                z-index: 100;
                                 display: flex;
 
                                 .phone-code {
@@ -1325,7 +1323,7 @@ body {
 
                         .input-bayrak {
                             display: flex;
-                            top: 11px !important;
+                            top: 27px !important;
                         }
 
                         .calendar {
