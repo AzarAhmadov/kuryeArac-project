@@ -14,13 +14,20 @@ closeBar.addEventListener('click', () => {
 let openModal = document.querySelector('.form-modal');
 let formCLose = document.querySelector('.form-close');
 let ilanBtn = document.querySelector("#ilan-btn");
-let Body = document.querySelector('#body');
 
 ilanBtn.addEventListener('click', () => {
   openModal.classList.add('active')
-  Body.classList.add('active')
+  Blur.classList.add('active')
 })
 
 formCLose.addEventListener('click', () => {
   openModal.classList.remove('active')
+  Blur.classList.remove('active')  
 })
+
+let Blur = document.querySelector('.blur');
+
+
+
+
+

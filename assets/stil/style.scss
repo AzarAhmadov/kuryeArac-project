@@ -41,7 +41,7 @@
 }
 
 .giris {
-    color: #fff;
+    color: #fff !important;
     border-radius: 15px;
     display: flex;
     align-items: center;
@@ -78,6 +78,7 @@
 
 body {
     #header {
+
         padding-top: 54px;
 
         .container {
@@ -209,6 +210,7 @@ body {
     }
 
     main {
+
         .mobil-menu {
             .mobil-container {
                 nav {
@@ -291,7 +293,7 @@ body {
 
                             .btn-banner {
                                 display: flex;
-                                justify-content:center;
+                                justify-content: center;
                                 margin-top: 34px;
                                 margin-left: 20px;
 
@@ -299,7 +301,7 @@ body {
                                     width: 249px;
                                     display: flex;
                                     align-items: center;
-                                    justify-content:center;
+                                    justify-content: center;
                                     height: 63px;
                                     border-radius: 40px;
                                     color: #FFFFFF;
@@ -312,9 +314,10 @@ body {
                     }
 
                     .right-col {
-                        position:relative ;
-                        .banner-img{
-                            position:absolute;
+                        position: relative;
+
+                        .banner-img {
+                            position: absolute;
                             top: -120px;
                             left: -125px;
                             z-index: -1;
@@ -505,18 +508,22 @@ body {
                         margin-bottom: 15px;
                         padding: 0 20px;
                         border: none;
-                        background: transparent;
+                        margin-right: -10px;
                         box-shadow: 0px 0px 8px #4B72AD26;
                         width: 295px;
                         height: 55px;
                         margin-right: 20px;
                         border-radius: 15px;
                         color: #004E9C;
+                        appearance: none;
+                        background-image: url("../img/chevron-down-regular-36.png");
+                        background-repeat: no-repeat;
+                        background-position: 95% center;
                     }
 
                     #yer {
                         margin-bottom: 15px;
-
+                        appearance: none;
                         color: #004E9C;
                         padding: 0 20px;
                         box-shadow: 0px 0px 8px #4B72AD26;
@@ -526,9 +533,13 @@ body {
                         height: 55px;
                         margin-right: 20px;
                         border-radius: 15px;
+                        background-image: url("../img/chevron-down-regular-36.png");
+                        background-repeat: no-repeat;
+                        background-position: 95% center;
                     }
 
                     #bolum {
+                        appearance: none;
                         color: #004E9C;
                         border-radius: 15px;
                         padding: 0 20px;
@@ -537,6 +548,9 @@ body {
                         background: transparent;
                         width: 295px;
                         height: 55px;
+                        background-image: url("../img/chevron-down-regular-36.png");
+                        background-repeat: no-repeat;
+                        background-position: 95% center;
                     }
                 }
 
@@ -674,10 +688,19 @@ body {
                     font-size: 18px;
                 }
             }
-
-
-
         }
+
+        .blur {
+            &.active {
+                width: 100%;
+                height: 100vh;
+                position: fixed;
+                top: 0;
+                backdrop-filter: blur(7px);
+                z-index: 1;
+            }
+        }
+
 
         .form-modal {
             padding: 0 40px;
@@ -694,7 +717,8 @@ body {
             opacity: 0;
             margin-top: 10px;
             transition: 400ms all;
-            &.active{
+
+            &.active {
                 visibility: visible;
                 opacity: 1;
                 margin-top: 0;
@@ -757,6 +781,10 @@ body {
                             font-family: Gilroy Medium;
                             width: 300px;
                             height: 55px;
+                            appearance: none;
+                            background-image: url("../img/chevron-down-regular-36.png");
+                            background-repeat: no-repeat;
+                            background-position: 97% center;
                         }
 
                         .soyad,
@@ -772,7 +800,7 @@ body {
 
                         .calendar {
                             position: absolute;
-                            right: 55px;
+                            right: 60px;
                         }
 
                         #cinsiyyet {
@@ -831,14 +859,16 @@ body {
                             }
 
                             .input-bayrak {
-                                margin-top: 13px;
+                                margin-top: 16px;
                                 margin-left: 20px;
                                 position: absolute;
                                 top: 0;
                                 background: #fff;
                                 z-index: 100;
+                                display: flex;
 
                                 .phone-code {
+                                    margin-left: 7px;
                                     position: relative;
 
                                     &::after {
@@ -1150,7 +1180,8 @@ body {
                                     justify-content: center;
                                     margin-bottom: 70px;
                                 }
-                                .btn-banner{
+
+                                .btn-banner {
                                     margin-bottom: 0 !important;
                                 }
                             }
@@ -1267,32 +1298,48 @@ body {
 
     @media only screen and (max-width:600px) {
         main {
-       .form-modal{
-           overflow-y: auto;
-           height: 100vh;
-           width: 350px;
-           z-index: 1000;
-           form{
-               .input-flex{
-                   margin: 0 !important;
-                   flex-direction: column !important;
-                   input{
-                       margin-top: 13px;
-                       margin-right: 0  !important;
-                   }
-                   #cinsiyyet,#oblast,#bolum,#yerlesim,.file{
-                       margin-right:0!important;
-                       margin-top: 13px;
-                   }
-                   .input-bayrak{
-                       top: 13px !important;
-                   }
-                   .calendar{
-                       top: 325px;
-                   }
-               }
-           }
-       }
+            .form-modal {
+                overflow-y: auto;
+                height: 100vh;
+                width: 350px;
+                z-index: 1000;
+
+                form {
+                    .input-flex {
+                        margin: 0 !important;
+                        flex-direction: column !important;
+
+                        input {
+                            margin-top: 13px;
+                            margin-right: 0 !important;
+                        }
+
+                        #cinsiyyet,
+                        #oblast,
+                        #bolum,
+                        #yerlesim,
+                        .file {
+                            margin-right: 0 !important;
+                            margin-top: 13px;
+                        }
+
+                        .input-bayrak {
+                            display: flex;
+                            top: 15px !important;
+
+                            img {
+                                margin-right: 6px;
+                            }
+                        }
+
+                        .calendar {
+                            right: 43px !important;
+                            top: 325px;
+                        }
+                    }
+                }
+            }
+
             #banner {
                 .container {
 
@@ -1369,25 +1416,28 @@ body {
                 margin: 35px 0;
             }
         }
-        main{
-            #banner{
-                .container{
-                    .row{
-                        .right-col{
+
+        main {
+            #banner {
+                .container {
+                    .row {
+                        .right-col {
                             justify-content: flex-end !important;
                             display: flex !important;
-                            .banner-img{
+
+                            .banner-img {
                                 top: -75px;
                                 left: -15px;
                                 width: 80%;
                             }
                         }
-                        .left-col{
-                            .btn-banner{
+
+                        .left-col {
+                            .btn-banner {
                                 margin-left: 0 !important;
                             }
                         }
-                     
+
                     }
                 }
             }
